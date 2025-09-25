@@ -10,8 +10,7 @@ fi
 echo "Please choose your LLM provider:"
 echo "1. DeepSeek"
 echo "2. Kimi-K2"
-echo -n "Enter your choice (1 or 2): "
-read choice
+read -p "Enter your choice (1 or 2): " choice
 
 case $choice in
     1)
